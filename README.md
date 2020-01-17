@@ -4,7 +4,7 @@ Basically the logic of a strong number is, if the sum of the factorial of the ea
 
 Example: 
 145 = 1! + 4! + 5!
-    = 1 + (4*3*2*1) + (5*4*3*2*1)
+    = 1 + (4x3x2x1) + (5x4x3x2x1)
     = 1 + 24 + 120
     = 145
 
