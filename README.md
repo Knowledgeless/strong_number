@@ -10,5 +10,5 @@ Example:
 
 Here, we can see the orginal number is 145. And particularlly the sum of the factorial of all digits are equal to the orginal number 145. So, 145 is a strong number.
 
-The script I have written is very easy to use. If you find any dificultise let me know. 
-Happy_Coding
+The script I have written is very easy to use. If you find any difficulties, let me know. 
+Happy_Coding :)
