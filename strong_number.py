@@ -1,11 +1,13 @@
-
-#Script: Strong Number 
-#Written By: knowledgeless
-
+'''
+Script: Strong Number 
+Written By: knowledgeless
+Github: https://www.github.com/knowledgeless
+'''
 
 #find multiple strong numbers from a range
 def multiplestrong():
 	try:
+		count = 0
 		start = int(input("Enter Starting number: "))
 		end = int(input("Enter End number: "))
 		if start < end:
@@ -22,8 +24,8 @@ def multiplestrong():
 					sum = sum+result	#adding all factorial 
 				if sum == user:		#checking strong number
 					print("\t",user, "is a Strong Number")
-				else:
-					print("\t",user, "is not a Strong Number")
+					count+=1
+			print("\n\t There are {} strong number found!".format(count))
 			print("-"*50)
 		else:
 			print("WrongInput: Starting value can't be greater then End value")
@@ -67,5 +69,3 @@ try:
 		print("Choose Between Option 1 & 2 \n")
 except ValueError:		#Error handling
 	print("ValueError: Choose An Option Using Integer Number!\n")
-	
-	
