@@ -9,7 +9,7 @@ def multiplestrong():
 	try:
 		count = 0
 		start = int(input("Enter Starting number: "))
-		end = int(input("Enter End number: "))
+		end = int(input("Enter Ending number: "))
 		if start < end:
 			print("-"*50)
 			for k in range(start, end+1): #getting range from user
